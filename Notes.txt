@@ -1,0 +1,21 @@
+Allows to bring togather Capabilities that allows to build highly accurate models that improves over time. 
+
+Sagemaker lets you connect and load your data from sources such as Amazon S3 and Amazon Redshift in just a few 
+clicks from Sagemaker studio which can then be used to train your model.
+
+Sagemaker Data Wrangler converts, transforms or combine raw tabular data into features into fraction of the time
+it typically takes. 
+
+We can save these features to Sagemaker feature store which lets you check in and check out features. The surface 
+lets you create multiple versions of features and you can add descriptions and search for features, which can 
+then later be used for other models. 
+
+Sagemaker Clarify helps ensure that training data is well balanced, which means that the possible values for 
+the features are well represented in the data and the accuracy of the trained models is roughly the same across
+different subsets of the data such as different musical genres.  We can also use Sagemaker Clarify to inspect
+individual predictions to understand how each feature plays a role in the prediction. 
+
+To continually improve the model by rebuilding it regularly, we can take advantage of Sagemaker Pipelines which
+provides continous integration and continous deployment capability. It helps to deliver better models more
+quickly.
+
